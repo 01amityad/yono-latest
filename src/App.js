@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
-import { Button } from "./components/ui/button";
-import { Input } from "./components/ui/input";
-import { Label } from "./components/ui/label";
+<input type="text" />
+<button>Add</button>
 import { createClient } from "@supabase/supabase-js";
 
 const supabaseUrl = "https://qptkjqjhxxoplhvvkjum.supabase.co";
