@@ -1,11 +1,14 @@
-import { useEffect, useState } from "react";
-import { Helmet } from "react-helmet";
-<input type="text" />
-<button>Add</button>
-import { createClient } from "@supabase/supabase-js";
 
-const supabaseUrl = "https://qptkjqjhxxoplhvvkjum.supabase.co";
-const supabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...";
-const supabase = createClient(supabaseUrl, supabaseKey);
+import React from "react";
 
-// (Remaining component omitted for brevity)
+function AppShowcase() {
+  return (
+    <>
+      <h1>Welcome to Yono</h1>
+      <input type="text" placeholder="Enter text" />
+      <button>Add</button>
+    </>
+  );
+}
+
+export default AppShowcase;
