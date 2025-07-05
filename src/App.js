@@ -1,6 +1,11 @@
 // src/App.js
 import React, { useState, useEffect } from "react";
 import { createClient } from "@supabase/supabase-js";
+import PublicAppGallery from "./PublicAppGallery";
+// ...
+function App() {
+  return <PublicAppGallery />;
+}
 
 // === Supabase Config ===
 const supabaseUrl = "https://qptkjqjhxxoplhvvkjum.supabase.co";
